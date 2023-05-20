@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-
+// 배열에 쓰이는 글자 수를 세어라.
 int StringCount(char* _Arr)
 
 {
@@ -15,14 +15,21 @@ int StringCount(char* _Arr)
     return ChCount;
 }
 
-
+// 배열 내의 글자를 변경해라.
 void ChangeCh(char* _Arr, char _PrevCh, char _NextCh)
 {
 
-    _PrevCh = _NextCh;
-    _Arr[8] = _PrevCh;
-    _Arr[9] = _PrevCh;
-    _Arr[10] = _PrevCh;
+    int i = 0;
+    while (_Arr[i++])
+    {
+        if (_Arr[i] == _PrevCh)
+        {
+
+            _Arr[i] = _NextCh;
+
+        }
+
+    }
 
     return;
 }

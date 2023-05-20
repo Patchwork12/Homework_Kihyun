@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{674dc97a-0eba-4250-9410-1e9a20031d81}</ProjectGuid>
-    <RootNamespace>Homework</RootNamespace>
+    <ProjectGuid>{3bb2a393-0199-4d4d-9bb8-59eab3fd57ad}</ProjectGuid>
+    <RootNamespace>Homework0519</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Homework.cpp" />
+    <ClCompile Include="Homework0519.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
