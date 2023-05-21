@@ -4,8 +4,12 @@
 
 // 배열에 쓰이는 글자 수를 세어라.
 int StringCount(char* _Arr)
-
 {
+    if (nullptr == _Arr)
+    {
+        return -1;
+    }
+
     int ChCount = 0;
     while (_Arr[ChCount])
     {
@@ -18,6 +22,10 @@ int StringCount(char* _Arr)
 // 배열 내의 글자를 변경해라.
 void ChangeCh(char* _Arr, char _PrevCh, char _NextCh)
 {
+    if (nullptr == _Arr)
+    {
+        return;
+    }
 
     int i = 0;
     while (_Arr[i++])

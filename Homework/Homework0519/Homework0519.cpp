@@ -37,7 +37,7 @@ int ChCount(const char* const _string, char Ch)
     return ChCount;
 }
 
-//공백을 지워서 출력해라
+//공백을 지워라
 void TrimDelete(char* _string)
 {
     if (nullptr == _string)
@@ -104,13 +104,13 @@ void StrCopy(const char* const _Left, char* _Right)
         return;
     }
 
-    int i = 0;
+    int Count = 0;
 
-    while (_Left[i] != 0)
+    while (_Left[Count] != 0)
     {
 
-        _Right[i] = _Left[i];
-        ++i;
+        _Right[Count] = _Left[Count];
+        ++Count;
 
     }
 
