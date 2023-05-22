@@ -99,8 +99,8 @@ int main()
     
    
     int PlayerHp = 100;
-    int PlayerAtt = 9;
-    char PlayerName[40] = "Player";
+    int PlayerAtt = 15;
+    char PlayerName[40] = "송현지천재";
 
 
 
