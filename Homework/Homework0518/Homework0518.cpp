@@ -3,7 +3,7 @@
 #include <iostream>
 
 // 배열에 쓰이는 글자 수를 세어라.
-int StringCount(char* _Arr)
+int StringCount(const char* _Arr)
 {
     if (nullptr == _Arr)
     {
