@@ -144,8 +144,9 @@ int main()
 
         if (MonsterHp <= 0) 
         {
-            MonsterHp = 0;
+
             system("cls");
+            MonsterHp = 0;
             StatusRender(PlayerNamePrint, PlayerAtt, PlayerHp);
             StatusRender(MonsterNamePrint, MonsterAtt, MonsterHp);
 
@@ -170,8 +171,9 @@ int main()
 
         if (PlayerHp <= 0)
         {
-            PlayerHp = 0;
+
             system("cls");
+            PlayerHp = 0;
             StatusRender(PlayerNamePrint, PlayerAtt, PlayerHp);
             StatusRender(MonsterNamePrint, MonsterAtt, MonsterHp);
 
