@@ -100,7 +100,7 @@ int main()
    
     int PlayerHp = 100;
     int PlayerAtt = 15;
-    char PlayerName[40] = "송현지천재";
+    char PlayerName[40] = "Player";
 
 
 
