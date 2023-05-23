@@ -152,6 +152,7 @@ int main()
 
             DamagePrint(PlayerName, MonsterName, PlayerAtt);
             printf_s("\n----%s가 사망했습니다.----\n", MonsterName);
+            _getch();
             return 0;
         }
 
@@ -180,6 +181,7 @@ int main()
             DamagePrint(PlayerName, MonsterName, PlayerAtt);
             DamagePrint(MonsterName, PlayerName, MonsterAtt);
             printf_s("\n----%s가 사망했습니다.----\n", PlayerName);
+            _getch();
             return 0;
         }
 
