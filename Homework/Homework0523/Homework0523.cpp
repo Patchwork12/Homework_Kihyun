@@ -36,6 +36,7 @@ void TestFunction(Player _Newplayer, int _Test)
     __int64 Address2 = (__int64)&_Newplayer.Speed; //7993220
     __int64 Address3 = (__int64)&_Newplayer.ATT; //7993228
     __int64 Address4 = (__int64)&_Test; //7993236
+
     // 이것도 확인해보세요.
     int a = 0;
 }
