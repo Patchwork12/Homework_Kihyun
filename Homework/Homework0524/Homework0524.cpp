@@ -37,7 +37,7 @@ public:
 
 };
 
-// 리스 이니셜라이저
+// 리스트 이니셜라이저
 const int4 Left = { -1, 0 };
 const int4 Right = { 1, 0 };
 const int4 Up = { 0, -1 };
@@ -62,7 +62,7 @@ public:
         Clear();
     }
 
-    void SetPixel(const int4& _Pos, char _Ch)
+    void SetPixel(const int4 &_Pos, char _Ch)
     {
         ArrScreen[_Pos.Y][_Pos.X] = _Ch;
     }
@@ -115,14 +115,14 @@ public:
         return Pos;
     }
 
-    void AddPos(const int4& _Pos)
+    void AddPos(const int4 &_Pos)
     {
         Pos += _Pos;
 
     }
 
 
-    void SetPos(const int4&_Pos)
+    void SetPos(const int4 &_Pos)
     {
         // 뭔가가 그냥 거저 된다.
         // => 내가 만들었다.
@@ -139,7 +139,7 @@ public:
 
     void Input()
     {
-        char Select = (char)_getch();
+        char Select = _getch();
         
 
         switch (Select)

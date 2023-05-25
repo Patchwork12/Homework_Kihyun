@@ -66,7 +66,7 @@ void TrimDelete(char* _string)
     {
 
         _string[Count] = ChangeCh[Count];
-            ++Count;
+        ++Count;
 
     }
     _string[Count] = 0;
@@ -177,19 +177,19 @@ int main()
     }
 
     {
-    
+
         char ArrCopyText[256] = {};
 
         StrCopy("aaaa bbb ccc", ArrCopyText);
 
         int a = 0;
     }
-    
+
     {
         char Result[256] = {};
 
         // Result = "312312";
-        
+
         NumberToString(312312, Result);
 
         int a = 0;
