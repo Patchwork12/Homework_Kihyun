@@ -16,7 +16,7 @@ public:
 
 	void StatusRender();
 
-	void DamagePrint(const char* const _AttName, int _Att);
+	void DamagePrint(const char* const _AttName, int _Att); 
 	void Damage(int _Att);
 
 

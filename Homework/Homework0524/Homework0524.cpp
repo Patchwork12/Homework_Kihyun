@@ -11,7 +11,7 @@ const int YLine = 10;
 
 
 // 이녀석은 캡슐화된 클래스라기 보다는 기본자료형
-class int4
+class Position
 {
 public:
     int X = 0;
@@ -19,7 +19,7 @@ public:
     int Z = 0;
     int W = 1;
 
-    void operator=(const int4& _Other)
+    void operator=(const Position& _Other)
     {
         X = _Other.X;
         Y = _Other.Y;
@@ -27,7 +27,7 @@ public:
         W = _Other.W;
     }
 
-    void operator+=(const int4& _Other)
+    void operator+=(const Position& _Other)
     {
         X += _Other.X;
         Y += _Other.Y;
@@ -38,10 +38,10 @@ public:
 };
 
 // 리스트 이니셜라이저
-const int4 Left = { -1, 0 };
-const int4 Right = { 1, 0 };
-const int4 Up = { 0, -1 };
-const int4 Down = { 0, 1 };
+const Position Left = { -1, 0 };
+const Position Right = { 1, 0 };
+const Position Up = { 0, -1 };
+const Position Down = { 0, 1 };
 
 // Init('*')
 
@@ -62,7 +62,7 @@ public:
         Clear();
     }
 
-    void SetPixel(const int4 &_Pos, char _Ch)
+    void SetPixel(const Position &_Pos, char _Ch)
     {
         ArrScreen[_Pos.Y][_Pos.X] = _Ch;
     }
@@ -110,19 +110,19 @@ public:
     // 그걸 구조체나 클래스로 묶어서 참조형태로 넘기는게 대부분의 상황에서
     // 무조건 이득이다.
 
-    int4 GetPos()
+    Position GetPos()
     {
         return Pos;
     }
 
-    void AddPos(const int4 &_Pos)
+    void AddPos(const Position &_Pos)
     {
         Pos += _Pos;
 
     }
 
 
-    void SetPos(const int4 &_Pos)
+    void SetPos(const Position &_Pos)
     {
         // 뭔가가 그냥 거저 된다.
         // => 내가 만들었다.
@@ -193,7 +193,7 @@ private:
 
 
 
-    int4 Pos;
+    Position Pos;
 };
 
 // 기계어적으로 볼때 함수가 호출되고 함수의 메모리를 만들고

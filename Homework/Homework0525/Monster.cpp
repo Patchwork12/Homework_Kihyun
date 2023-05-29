@@ -53,7 +53,7 @@ Monster::Monster()
 	}
 
 	int Monster::GetAtt()
-	{
+	{   
 		return Att;
 	}
 

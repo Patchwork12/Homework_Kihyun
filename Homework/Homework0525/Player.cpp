@@ -24,6 +24,10 @@ Player::Player()
 		}
 		printf_s("\n");
 
+
+
+
+
 		printf_s("공격력 : %d\n", Att);
 		printf_s("체  력 : %d\n", Hp);
 		for (size_t i = 0; i < LineCount; i++)
