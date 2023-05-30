@@ -7,10 +7,7 @@
 #include "Unit.h"
 #include "Bullet.h"
 
-class int4;
-class ConsoleScreen;
-class Player;
-class Wall;
+
 
 class GameManager
 {

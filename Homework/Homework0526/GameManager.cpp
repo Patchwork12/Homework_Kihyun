@@ -9,8 +9,6 @@
 #include "GameManager.h"
 #include "Bullet.h"
 
-class Wall;
-class Player;
 
 
 void GameManager::SetGame()
@@ -65,9 +63,6 @@ void GameManager::SetGame()
 
         }
 
-
-        // ++Count;
-
         Screen.Print();
 
         //화면 초기화
@@ -76,16 +71,13 @@ void GameManager::SetGame()
             GameManager::Input();
 
         }
-        // 1초 동안 정지합니다.
+       // 0.1초 동안 정지합니다. 
         Sleep(100);
 
         int a = 0;
     }
 
 }
-
-
-
 
 void GameManager::BulletShoot()
 {
@@ -126,7 +118,6 @@ void GameManager::HitBullet()
         }
     }
 }
-
 
 
 void GameManager::Input()

@@ -3,8 +3,7 @@
 #include <conio.h>
 #include "int4.h"
 
-class ConsoleScreen;
-class int4;
+
 
 class Unit
 {

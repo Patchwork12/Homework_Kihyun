@@ -25,50 +25,6 @@ int main()
 {
     GameManager NewGame;
     NewGame.SetGame();
-    //ConsoleScreen Screen;
-    //Screen.Init('*');
-
-    //Player MainPlayer;
-    //MainPlayer.SetPos({ 10, 5 });
-
-    //Wall Walls[10];
-    //while (true)
-    //{
-    //    Screen.Clear();
-    //    Screen.SetPixel(MainPlayer.GetPos(), 'a');
-
-
-    //    for (size_t i = 0; i < 5; i++)
-    //    {
-
-    //        // int4 WallPos = PtrWall.GetPos();
-    //        // int4 WallPos = ArrWall[i].GetPos();
-    //        int4 WallPos = { 5 + Count, i };
-    //        Screen.SetPixel(WallPos, '0');
-    //    }
-    //    // ++Count;
-
-    //    Screen.Print();
-
-    //    if (0 != _kbhit())
-    //    {
-    //        MainPlayer.Input(&Screen);
-
-    //        // 1000이면 1초입니다.
-    //    }
-    //    // 1초 동안 정지합니다.
-    //    Sleep(200);
-    //}
-
-
-    //while (true)
-    //{
-    //    Screen.Clear();
-    //    Screen.SetPixel(MainPlayer.GetPos(), 'a');
-    //    Screen.Print();
-
-    //    MainPlayer.Input(&Screen);
-    //}
 
 
 }

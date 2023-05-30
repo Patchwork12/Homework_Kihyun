@@ -3,8 +3,6 @@
 #include "ConsoleScreen.h"
 #include "Wall.h"
 
-class int4;
-class Wall;
 
 
 Player::Player()
