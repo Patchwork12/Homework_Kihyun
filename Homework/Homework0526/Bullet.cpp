@@ -1,13 +1,6 @@
 #include "Bullet.h"
-#include "Wall.h"
-#include "int4.h"
-#include "Bullet.h"
-#include "ConsoleScreen.h"
 #include "GameManager.h"
-#include "int4.h"
 
-
-class GameManager;
 
 Bullet::Bullet()
 {
